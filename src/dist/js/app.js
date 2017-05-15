@@ -1,0 +1,1 @@
+"use strict";[].forEach.call(document.querySelectorAll("img[data-src]"),function(t){t.setAttribute("src",t.getAttribute("data-src")),t.setAttribute("srcset",t.getAttribute("data-srcset")),t.onload=function(){t.removeAttribute("data-src"),t.removeAttribute("data-srcset"),t.removeAttribute("style")}});
