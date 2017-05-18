@@ -23,4 +23,4 @@ define( 'PROGRESSIVE_IMAGES_VERSION', '0.0.2' );
  */
 require_once __DIR__ . '/src/util.php';
 require_once __DIR__ . '/src/enqueue.php';
-require_once __DIR__ . '/src/core.php';
+require_once __DIR__ . '/src/image-replacement.php';
