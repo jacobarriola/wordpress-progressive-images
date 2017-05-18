@@ -1,6 +1,9 @@
 # Progressive images for WordPress
 This is a WordPress 🔌 plugin that loads all of your images after your page loads.
 
+## Requirements
+PHP > 5.3, since we use namespacing.
+
 ## To install
 * Download repo
 * Move file to your `wp-content/plugins` directory
