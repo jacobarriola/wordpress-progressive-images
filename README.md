@@ -30,9 +30,11 @@ add_filter( 'Progressive_Images\enabled', function( $post_thumbnail_id ) {
 ```
 
 **Remove functionality on images in post_content:**
-* `remove_filter( 'the_content', 'Progress_Images/add_wrapping_content_markup' );`
-* `remove_filter( 'the_content', 'Progress_Images/replace_src' );`
-* `remove_filter( 'the_content', 'Progress_Images/replace_srcset' );`
+```php
+remove_filter( 'the_content', 'Progress_Images/add_wrapping_content_markup' );
+remove_filter( 'the_content', 'Progress_Images/replace_src' );
+remove_filter( 'the_content', 'Progress_Images/replace_srcset' );
+```
 
 **Add a class to the wrapping markup on post_thumbnails**
 ```php
