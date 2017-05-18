@@ -1,3 +1,6 @@
+/*
+Credit: David Walsh 💪 https://davidwalsh.name/lazyload-image-fade
+ */
 [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
 	img.setAttribute('src', img.getAttribute('data-src'));
 	img.setAttribute('srcset', img.getAttribute('data-srcset'));

@@ -6,8 +6,8 @@ var babel = require('gulp-babel');
 
 var paths = {
 	nodePath: 'node_modules/',
-	destPath: 'src/dist/',
-	inputPath: 'src/assets/'
+	destPath: '_dist/',
+	inputPath: 'assets/'
 };
 
 gulp.task('styles', function() {
