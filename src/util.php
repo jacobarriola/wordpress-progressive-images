@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgressiveImages;
+namespace Progressive_Images;
 
 function get_aspect_ratio( $width, $height ) {
 
