@@ -1,0 +1,15 @@
+{
+    "name": "jacobarriola/progressive-images",
+    "description": "WordPress plugin to load images after page has loaded",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Jacob Arriola",
+            "email": "jacob@zeek.com"
+        }
+    ]
+}
