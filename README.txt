@@ -4,7 +4,7 @@ Author URI: http://jacobarriola.com
 Tags: performance, images
 Requires at least: 4.7.4
 Tested up to: 4.7.5
-Stable tag: 0.0.3
+Stable tag: 0.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
