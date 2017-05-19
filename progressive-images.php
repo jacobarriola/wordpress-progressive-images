@@ -2,7 +2,7 @@
 /*
 Plugin Name: Progressive Images
 Description: Load images after everything else has loaded
-Version: 0.0.4
+Version: 0.0.5
 Author: Jacob Arriola
 Author URI: http://jacobarriola.com
 License: GPL2
