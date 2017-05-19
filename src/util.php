@@ -12,9 +12,5 @@ function get_aspect_ratio( $width, $height ) {
 		return 100;
 	}
 
-	if ( $width / $height <= '1' ) {
-		return ( $width / $height ) * 100;
-	}
-
-	return ( ( $width / $height ) - 1 ) * 100;
+	return ( $height / $width )  * 100;
 }
