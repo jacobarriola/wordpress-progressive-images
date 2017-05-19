@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Define our plugin constants
 define( 'PROGRESSIVE_IMAGES_URL', plugin_dir_url( __FILE__ ) );
 define( 'PROGRESSIVE_IMAGES_PATH', plugin_dir_path( __FILE__ ) );
-define( 'PROGRESSIVE_IMAGES_VERSION', '0.0.4' );
+define( 'PROGRESSIVE_IMAGES_VERSION', '0.0.5' );
 
 /*
  * Require our files
