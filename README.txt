@@ -4,7 +4,7 @@ Author URI: http://jacobarriola.com
 Tags: performance, images
 Requires at least: 4.7.4
 Tested up to: 4.7.5
-Stable tag: trunk
+Stable tag: 0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ Probably best to fork this repo on [GitHub](https://github.com/jacobarriola/word
 View the repo on [GitHub](https://github.com/jacobarriola/wordpress-progressive-images) to view available filters.
 
 == Changelog ==
+= 0.4 =
+* Remove background color once an image loads [#1](https://github.com/jacobarriola/wordpress-progressive-images/issues/1)
+* Fix how aspect ratio is calculated
 
 = 0.3 =
 * Drop functionality on images in post content. Too many conflicts with oEmbeds.

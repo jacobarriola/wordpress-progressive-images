@@ -2,7 +2,7 @@
 /*
 Plugin Name: Progressive Images
 Description: Load images after everything else has loaded
-Version: 0.0.3
+Version: 0.0.4
 Author: Jacob Arriola
 Author URI: http://jacobarriola.com
 License: GPL2
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Define our plugin constants
 define( 'PROGRESSIVE_IMAGES_URL', plugin_dir_url( __FILE__ ) );
 define( 'PROGRESSIVE_IMAGES_PATH', plugin_dir_path( __FILE__ ) );
-define( 'PROGRESSIVE_IMAGES_VERSION', '0.0.2' );
+define( 'PROGRESSIVE_IMAGES_VERSION', '0.0.4' );
 
 /*
  * Require our files

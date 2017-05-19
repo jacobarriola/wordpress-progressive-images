@@ -1,12 +1,18 @@
 .pi_image-placeholder {
 	display: inline-block;
-	background-color: #e6e6e6;
-	border: 1px solid #e6e6e6;
+	background-color: #efefef;
+	border: 1px solid #efefef;
 	border-radius: 3px;
 	max-width: 100%;
 
+	&.pi_is-loaded {
+		background-color: transparent;
+		border: none;
+		transition: background-color 750ms;
+	}
+
 	img {
-		transition: opacity 1000ms;
+		transition: opacity 1500ms;
 	}
 
 	img[data-src] {

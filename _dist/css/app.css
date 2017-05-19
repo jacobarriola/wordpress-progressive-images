@@ -1,1 +1,1 @@
-.pi_image-placeholder{display:inline-block;background-color:#e6e6e6;border:1px solid #e6e6e6;border-radius:3px;max-width:100%}.pi_image-placeholder img{transition:opacity 1000ms}.pi_image-placeholder img[data-src]{height:0;opacity:0}
+.pi_image-placeholder{display:inline-block;background-color:#efefef;border:1px solid #efefef;border-radius:3px;max-width:100%}.pi_image-placeholder.pi_is-loaded{background-color:transparent;border:none;transition:background-color 750ms}.pi_image-placeholder img{transition:opacity 1500ms}.pi_image-placeholder img[data-src]{height:0;opacity:0}
